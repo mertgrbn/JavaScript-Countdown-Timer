@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/fabian-mardi-kVKz9qnJC-k-unsplash.jpg);
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+   font-size: 4rem;
+   font-weight: normal;
+   margin-top: 5rem;
+}
+
+
+.coutdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.coutdown-el{
+    text-align: center;
+}
+
+.coutdown-el span{
+    font-size: 1.3rem;
+}
